@@ -1,7 +1,9 @@
 import { Typography, Box, useTheme } from "@mui/material";
-import ScreenshotRows from "./components/screenshot_row";
+import ScreenshotSection from "./components/screenshots_section";
 import { tokens } from "./theme";
 import foto1 from "./screenshots/demo.jpeg";
+import MembersSection from "./components/members_section";
+import AppIntroduction from "./components/app_introduction";
 
 const demo_screenshot = {
   img_path: foto1,
@@ -33,18 +35,24 @@ export default function MainView() {
         <Typography
           variant="h4"
           color={colors.greenAccent[400]}
-          style={{ paddingBottom: "100px" }}
+          style={{ paddingBottom: "20px" }}
         >
           ClassConnect
         </Typography>
-        <ScreenshotRows
+        <AppIntroduction />
+        <ScreenshotSection
           screenshots={[
+            demo_screenshot,
+            demo_screenshot,
+            demo_screenshot,
+            demo_screenshot,
             demo_screenshot,
             demo_screenshot,
             demo_screenshot,
             demo_screenshot,
           ]}
         />
+        <MembersSection />
       </Box>
     </Box>
   );
