@@ -30,7 +30,7 @@ export default function MainView() {
           fontWeight="bold"
           sx={{ mb: "5px" }}
         >
-          GUIA DE USO DE APP
+          GUIA DE USO DEL APP
         </Typography>
         <Typography
           variant="h4"
