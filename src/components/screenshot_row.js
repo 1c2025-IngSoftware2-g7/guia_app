@@ -12,6 +12,7 @@ export default function ScreenshotRow({ screenshots }) {
       justifyContent="center"
       gap="30px"
       px="20px"
+      style={{ mb: "40px", paddingBottom: "40px" }}
     >
       {screenshots.map((s, index) => (
         <ShowScreenshot
