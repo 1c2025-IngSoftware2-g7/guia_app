@@ -131,7 +131,7 @@ export default function AppIntroduction() {
             >
               <Box
                 sx={{
-                  backgroundColor: colors.greenAccent[400],
+                  backgroundColor: "#C5B4E3", //color={"#C5B4E3"} colors.greenAccent[400]
                   borderRadius: "50%",
                   width: 50,
                   height: 50,

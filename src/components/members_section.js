@@ -104,7 +104,7 @@ export default function MembersSection() {
                     width: 60,
                     height: 60,
                     mb: 2,
-                    border: `3px solid ${colors.greenAccent[400]}`,
+                    border: `3px solid #C5B4E3`,
                     boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
                     cursor: "pointer",
                     transition: "all 0.2s ease-in-out",
@@ -134,7 +134,7 @@ export default function MembersSection() {
                   label={member.role}
                   size="small"
                   sx={{
-                    backgroundColor: colors.greenAccent[400],
+                    backgroundColor: "#C5B4E3",
                     color: colors.grey[900],
                     fontWeight: "bold",
                     mb: 2,

@@ -34,7 +34,7 @@ export default function MainView() {
         </Typography>
         <Typography
           variant="h4"
-          color={colors.greenAccent[400]}
+          color={"#C5B4E3"}
           style={{ paddingBottom: "20px" }}
         >
           ClassConnect
