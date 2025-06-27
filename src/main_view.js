@@ -1,14 +1,58 @@
 import { Typography, Box, useTheme } from "@mui/material";
 import ScreenshotSection from "./components/screenshots_section";
 import { tokens } from "./theme";
-import foto1 from "./screenshots/demo.jpeg";
 import MembersSection from "./components/members_section";
 import AppIntroduction from "./components/app_introduction";
+import aux from "./screenshots/aux.jpg";
+import course_feedback from "./screenshots/course_feedback.jpg";
+import explore from "./screenshots/explore.jpg";
+import login from "./screenshots/login.jpg";
+import modules from "./screenshots/modules.jpg";
+import profile from "./screenshots/profile.jpg";
+import stream from "./screenshots/stream.jpg";
+import todo from "./screenshots/todo.jpg";
 
-const demo_screenshot = {
-  img_path: foto1,
+const aux_package = {
+  img_path: aux,
+  description: "Auxiliar: Añadí un profesor auxiliar para ayudar en la clase.",
+};
+
+const course_feedback_package = {
+  img_path: course_feedback,
+  description: "Feedback: Dile a tu profesor que te pareció la clase.",
+};
+
+const explore_package = {
+  img_path: explore,
+  description: "Explorar: Busca clases nuevas a las cual unirte.",
+};
+
+const login_package = {
+  img_path: login,
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Login: Login seguro local o con autenticación de Google. Datos biométricos opcionales.",
+};
+
+const modules_package = {
+  img_path: modules,
+  description: "Módulos: Crea módulos con tareas y examenes.",
+};
+
+const profile_package = {
+  img_path: profile,
+  description: "Perfil: Personaliza tu perfil.",
+};
+
+const stream_package = {
+  img_path: stream,
+  description:
+    "Clases: Cada clase tiene su propio apartado personalizado con sus tareas, profesores y demás.",
+};
+
+const todo_package = {
+  img_path: todo,
+  description:
+    "To-Do: Estate al día con las cosas que debas entregar o corregir.",
 };
 
 export default function MainView() {
@@ -42,14 +86,14 @@ export default function MainView() {
         <AppIntroduction />
         <ScreenshotSection
           screenshots={[
-            demo_screenshot,
-            demo_screenshot,
-            demo_screenshot,
-            demo_screenshot,
-            demo_screenshot,
-            demo_screenshot,
-            demo_screenshot,
-            demo_screenshot,
+            login_package,
+            profile_package,
+            explore_package,
+            stream_package,
+            modules_package,
+            aux_package,
+            course_feedback_package,
+            todo_package,
           ]}
         />
         <MembersSection />
