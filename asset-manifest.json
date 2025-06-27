@@ -1,16 +1,23 @@
 {
   "files": {
     "main.css": "/guia_app/static/css/main.2e0c3a17.css",
-    "main.js": "/guia_app/static/js/main.ad476340.js",
+    "main.js": "/guia_app/static/js/main.35a40e03.js",
     "static/js/453.b6587156.chunk.js": "/guia_app/static/js/453.b6587156.chunk.js",
-    "static/media/demo.jpeg": "/guia_app/static/media/demo.bd66659175c4db80caba.jpeg",
+    "static/media/explore.jpg": "/guia_app/static/media/explore.817dcf426dd74eaa289b.jpg",
+    "static/media/aux.jpg": "/guia_app/static/media/aux.bb6686dbbba7adcae6c7.jpg",
+    "static/media/course_feedback.jpg": "/guia_app/static/media/course_feedback.6e9a395b6fac993195fa.jpg",
+    "static/media/stream.jpg": "/guia_app/static/media/stream.4d13d05920b52bbfc57e.jpg",
+    "static/media/modules.jpg": "/guia_app/static/media/modules.ac4735fee6dbb3435b2c.jpg",
+    "static/media/profile.jpg": "/guia_app/static/media/profile.bd3887899fa8bf15b633.jpg",
+    "static/media/todo.jpg": "/guia_app/static/media/todo.27abe17d265027a1d552.jpg",
+    "static/media/login.jpg": "/guia_app/static/media/login.9c33381397686846b934.jpg",
     "index.html": "/guia_app/index.html",
     "main.2e0c3a17.css.map": "/guia_app/static/css/main.2e0c3a17.css.map",
-    "main.ad476340.js.map": "/guia_app/static/js/main.ad476340.js.map",
+    "main.35a40e03.js.map": "/guia_app/static/js/main.35a40e03.js.map",
     "453.b6587156.chunk.js.map": "/guia_app/static/js/453.b6587156.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e0c3a17.css",
-    "static/js/main.ad476340.js"
+    "static/js/main.35a40e03.js"
   ]
 }
